@@ -1,0 +1,34 @@
+#user{
+	float:right;
+	padding:30px;
+}
+
+#logo{
+	font-family:'Roboto', sans-serif; 
+	color:#b71c1c;
+	font-size:40pt;
+	margin-top:30px;
+}
+#gambar-logo{
+	margin-top:-90px;
+}
+#ampera-logo{
+	margin-bottom:-120px;
+}
+.footer{
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 60px;  
+}
+
+
+/*-------------media queries-----------*/
+	@media(max-width: 600px){
+			#logo{
+				margin-top:10px;
+			}
+			#user{
+				margin-left:20px;
+			}
+}
